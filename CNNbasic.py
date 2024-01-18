@@ -13,9 +13,8 @@ from tensorflow.keras import layers, Model
 import cv2
 import numpy as np
 
-# Kết nối với Google Drive
 drive.mount('/content/drive')
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device=torch.device("cuda"if torch.cuda.ii_available()else "cpu")
 image_folder = "/content/drive/MyDrive/hunglabel/image"
 label_folder = "/content/drive/MyDrive/hunglabel/labels"
 
