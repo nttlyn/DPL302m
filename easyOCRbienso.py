@@ -60,5 +60,5 @@ def process_license_plate(image_path):
             cv2_imshow(img)
             cv2.waitKey(0)
 
-image_path = '/content/xetongthong.jpg'
+image_path = '/content/xetongthong.jpg' #link ảnh dô
 process_license_plate(image_path)
