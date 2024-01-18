@@ -10,5 +10,6 @@ Chưa xử lý bị bế lên viện r.
 
 ## easyOCRbienso.py đọc biển bằng ML thôi, chưa train. 
 resize->tăng sáng->grayscale->gauss fix nhiễu->canny cạnh-> tạo đường viền, giữ 5 cái lớn nhất->ktra biển
+
 mà cái này phụ thuộc vào ảnh đầu vào nhiều , label r buil cái model train thui, t có viết basic CNN (https://colab.research.google.com/drive/1PjxgTjFCyVl7FZORYxszaJTeKrixmR_k?usp=sharing)   
 :) bây có thể triển khai cho nó fucktap ra nha
