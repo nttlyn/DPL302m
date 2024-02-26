@@ -1,0 +1,94 @@
+
+.body {
+    background-color: gray;
+}
+
+.content-container {
+    display: flex;
+    height: 100%;
+    gap: 10px;
+    
+}
+
+/* CSS cho bên trái - video */
+.right-container {
+    height: 440px;
+    width: 80%;
+    background-color: rgb(169, 213, 241);
+}
+.right-container h1 {
+    color: white;
+    text-align: center;
+}
+.video-list-container h1 {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.camera-container {
+    display: flex;
+    padding: 20px 10px;
+    gap: 20px;
+    
+}
+.camera-item-1 {
+    width: 49%;
+}
+.camera-video{
+    max-width: 579px;
+}
+.camera-item-2 {
+    width: 49%;
+}
+
+/* CSS cho bên phải - khung thông báo */
+.video-list-container {
+    height: 756px;
+    overflow-y: auto;
+    background-color: rgba(118, 171, 218, 0.717);
+    /* Màu nền của khung thông báo */
+    padding: 20px;
+    /* Khoảng cách bên trong khung thông báo */
+}
+
+.motion {
+    text-align: center;
+}
+
+.video-list-container a {
+    color: white;
+}
+
+.camera-frame {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item{
+    display: flex;
+    justify-content:space-around;    
+    align-items: center;
+    width: 100%;
+}
+#logo1{ 
+    width: 10%;
+}
+.logo-item-logo{
+  
+    width: 100%;
+}
+.video-list {
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+}
+.video-list-content {
+    width: 260px;
+    height: 100px;
+}
+.video-list-item {
+    width: 250px;
+    height: 100px
+}
