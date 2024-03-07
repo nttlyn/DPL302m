@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <style>
+        body{
+            color:white;
+            margin:0px;
+            padding:0px;
+        }
+        header.feature-box.top{
+        display: flex;
+        height:100px;
+        margin:0px;
+        padding:20px;
+        }
+        .logo-item{
+          display: flex;
+          justify-content:flex-start;    
+          align-items: center;
+          width: 100%;
+        }
+        #logo1{ 
+          width: 10%;
+        }
+        .logo-item-logo{
+          width: 100%;
+        
+        }
+        .main-content {
+          display: flex;
+        }
+        header.feature-box.second{
+        background-color:rgb(85, 166, 228);
+        height:50px;
+        width: 80%;
+        text-align:center;
+        }
+        .header.feature-box.second > h1 {
+          margin-top: 5px !important
+        }
+        header.feature-box.third{
+          background-color:rgb(46, 95, 145);
+          height: 50px;
+          float: right;
+          width: 20%;
+          text-align:center;
+        }
+        .Image-list-container {
+          height: 100px;
+          width: 290px;
+        }
+        .Image-list {
+          height: 540px; 
+          overflow-y: auto; 
+        }
+        .header.feature-box.third > h1 {
+          margin-top: 5px !important;
+        }
+        .header-content {
+          font-size: 2em;
+          font-weight: bold;
+          margin-bottom: 12px;
+          text-align: center;
+          justify-items: center;
+        }
+        .features{
+          background-color:black;
+          width: 500px;
+          height: 300px;
+          border-radius: 35px;
+          object-fit: contain;
+          margin:20px;
+        }
+        section.col-sm{
+          width: 500px;
+          height: 300px;
+          object-fit: contain;
+          margin:40px;
+          
+        }
+        .col-sm > img{
+          width: 500;
+          height: 300px;
+          object-fit: contain;
+          margin:40px;
+        }
+        .new{
+        color:black;
+        margin:0px;
+        padding:10px;
+        background-color:green;
+        margin:0px;
+        margin-top:-10px;
+        }
+        .custom-video {
+          display: flex;
+          margin-bottom: 50px;
+        }
+        .feature-box .third  > img{
+          width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header class="feature-box top">
+  <div class="logo-item-logo"> <img id="logo1" src="https://insacmau.com/wp-content/uploads/2023/02/logo-FPT-Polytechnic-.png" alt="hehe"></div>           
+  <h1>Camera</h1>
+</header>
+
+<div class="main-content"><header class="feature-box second">
+  <div class="header-content"><strong>Camera</strong></div>
+</header>
+
+<header class="feature-box third">
+<div class="header-content"><strong>Image List</strong></div>
+  <div class="Image-list">
+    <div class="Image-list-container">
+      <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+      <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+      <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+        <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+        <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+        <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+        <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+        <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+        <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+    </div>
+    <div class="Image-list-container">
+      <img class="Image-list-container" src="https://xetulaih2.com/wp-content/uploads/Phat-nguoi1.jpg"  alt="">
+  </div>
+  </div>
+</div>
+</header></div>
+
+<div class="custom-video">
+  <section class="col-sm " >
+          <img src="{{ url_for('video') }}"   alt="Upload video1">
+  </section>
+  <section class="col-sm " >
+    <img src="{{ url_for('video') }}"   alt="Upload video2">
+</section>
+</div>
+
+</body>
+</html>.
